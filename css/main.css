@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+body{ margin: 0;}
+
+nav{
+    height: 80px;
+    padding: 0px 136px;
+}
+
+ul{ 
+    justify-content: flex-end;
+    list-style: none; 
+    position: relative;
+    top: -18px;
+}
+
+a{text-decoration: none; color: #fff;}
+
+li > a{
+    font-size:16px;
+    padding: 10px; 
+}
+li > a:hover{
+    color: #18bc9c;
+    cursor: pointer;
+}
+
+figure.flex-box{
+    margin: 0;
+    position: relative;
+    top: 23px;
+}
+
+figure > a{
+    font-size:25px;
+}
+
+.flex-box{display: flex;}
+
+.background-blue.font-montserrat{
+    background-color:#2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.background-green{
+    background-color:#18bc9c;
+    color:#fff;
+    text-align: center;
+}
+
+.background-white{
+    text-align: center;
+}
+
+#open{
+    height: 615px;
+
+}
+#open > figure{
+    justify-content: center;
+}
+
+#open > figure > img{
+    width: 225px;
+    height: 225px;
+    position: relative;
+    top: 70px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 125px 0 33px;
+} 
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 86px 0 20px;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-top:-12px;
+}
+
+.star{
+    width: 230px;
+    border-top: 3px solid;
+}
+
+.star-green{
+    position: relative;
+    top: -29px;
+    background-color: #18bc9c;
+    color: #f8f9fa;
+}
+
+.star-black{
+    position: relative;
+    top: -29px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:-12px 106px  106px;
+}
+
+.portfolio > figure {
+    margin: 0;
+    display: inline;
+}
+
+.portfolio > figure > img{
+    width: 310px;
+    margin-bottom: 20px;
+}
+
+#about{
+    margin-top: -14px;
+    padding-top: 83px;
+    padding-bottom: 86px;
+}
+
+#about h2{
+    margin: 0;
+    padding-bottom: 13px;
+}
+#about div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -62px;
+}
+
+#about > div > p{
+    width: 340px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 15px;
+    line-height: 1.3;
+}
+
+.btn{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    color:#f8f9fa;
+    background-color: #18bc9c;
+    border-radius: 4px;
+}
+
+.btn-download{
+    display: block;
+    border: 2px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin: -22px auto 0 auto;
+}
+.btn-download:hover{
+    color: #212529;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+.btn-send{
+    border: none;
+    padding: 8px 15px;
+}
+
+.btn-send:hover{
+    background-color: #128f76;
+    cursor: pointer;
+}
+
+form{margin: 14px 306px; text-align: left;}
+.form-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    display: block;
+    padding: 0 8px 15px 0px;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 44px;
+    text-align: left; 
+    width: 100%;
+    font-size: 20px;
+    resize: none;
+}
+
+footer{
+    background-color:#2c3e50;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 98px;
+    padding: 0 105px;
+}
+
+footer > div {
+    width: 340px;
+    margin: 50px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer > div > p{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+footer > div > p > a{ 
+    text-transform: capitalize;
+    color: #18bc9c;
+}
+
+footer > div > p > a:hover{ 
+    text-decoration: underline; 
+    color: #128f76;
+}
+
+.social-network{
+    margin: 5%;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -9px;
+    margin-bottom: 13px;
+}
+
+.fab{
+    border: 2px solid #ffffff;
+    padding: 4%;
+    border-radius: 50% ;
+    margin: 20px 3px;
+}
