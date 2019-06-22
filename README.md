@@ -1,12 +1,19 @@
 # Freelancer
 
 ## Objetivo do projeto
-Este projeto foi proposto pela Laboratória e tem como objetivo a réplica estática do site Freelancer a partir de repositório base.  **Freelancer** e o resultado desejado é este:
+Projeto proposto pela Laboratoria durante o bootcamp de 2019.
 
-## Processo de desenvolvimento
-Foi criado primeiro a base do HTML e pouco a pouco foi adicionado o CSS conforme necessário.
+O objetivo deste projeto é a réplica estática do site **Freelancer**, a partir de um repositório boilerplate usando apenas HTML e CSS. 
 
-Estrutura de pastas e arquivos
+## Referência e Resultado
+A imagem abaixo é a refêrencia usada. O resultado obtido pode ser visto [aqui](https://anacamargo.github.io/freelancer/). 
+
+
+![Imagem de Referência](https://github.com/anacamargo/freelancer/blob/master/docs/fullpage.png)
+
+
+## Estrutura e Conteúdo do Repositório
+O arquivo index.htlm é a base desse projeto e possui links para o arquivo de estilo, que fica localizado na pasta CSS, e para as imagens que estão dentro na pasta assets.
 
 ```
 ├── README.md
